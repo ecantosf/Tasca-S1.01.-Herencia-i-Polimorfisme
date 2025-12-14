@@ -23,7 +23,7 @@ public abstract class Instrument {
     }
 
     //Constructor
-    public Instrument (String nom, double preu) {
+    public Instrument (String name, double price) {
         this.name = name;
         this.price = price;
         System.out.println("Constructor d'Instrument: " + name + " creat amb preu " + price + "€"); // Creació del constructor
