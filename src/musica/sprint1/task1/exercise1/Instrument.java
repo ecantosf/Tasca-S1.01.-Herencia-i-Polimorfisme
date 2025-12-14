@@ -1,4 +1,5 @@
 package musica.sprint1.task1.exercise1;
+
 //Classe Abstracta
 public abstract class Instrument {
 

@@ -1,4 +1,6 @@
-ppublic class Corda extends Instrument {
+package musica.sprint1.task1.exercise1;
+
+public class Corda extends Instrument {
 
     //Atribut estàtic específic de la classe Corda
     public static final String TIPUS_CORDA = "Instrument de corda";
