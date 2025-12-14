@@ -1,6 +1,6 @@
 # POO Inheritance & Polymorphism Exercises 
 
-## Description**: 
+## Description
 Practical exercises to master two core Object-Oriented Programming concepts: inheritance 
 and polymorphism. Learn to efficiently reuse code, build class hierarchies, and leverage 
 polymorphic methods for dynamic behavior.
@@ -22,7 +22,7 @@ En aquest grup, hi ha tres tipus d’instrumen
 - Static and final member usage
 - Clean, structured Java projects with IntelliJ
 
-## Technologies   
+## Technologies
 - Language: Java
 - IDE: IntelliJ IDEA
 - Build Tool: Maven/Gradle (if applicable)
