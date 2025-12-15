@@ -8,13 +8,13 @@ public abstract class Instrument {
     private double price;
 
     //Atribut estàtic per demostrar càrrega de classe
-    public static int comptadorInstruments = 0;
+    public static int counterInstruments = 0;
 
     //Bloc estàtic, que s'executarà una sola vegada
     static {
         System.out.println("Bloc estàtic de la classe instrument - Càrrega classe instrument...");
-        comptadorInstruments++;
-        System.out.println("Comptador estàtic iniciat: " + comptadorInstruments);
+        counterInstruments++;
+        System.out.println("Comptador estàtic iniciat: " + counterInstruments);
     }
 
     //Bloc d'inicialització d'instància, que s'executa cada vegada que es crea una instància

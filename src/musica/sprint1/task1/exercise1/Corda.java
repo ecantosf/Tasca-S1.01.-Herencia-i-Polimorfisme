@@ -3,12 +3,12 @@ package musica.sprint1.task1.exercise1;
 public class Corda extends Instrument {
 
     //Atribut estàtic específic de la classe Corda
-    public static final String TIPUS_CORDA = "Instrument de corda";
+    public static final String TYPE_STRING = "Instrument de corda";
 
     //Bloc Static: es carrega quan s'accedeix a la classe (corda) per primera vegada
     static {
         System.out.println("BLOQ ESTÀTIC de la classe Corda - Carregant classe...");
-        System.out.println("Tipus d'instrument: " + TIPUS_CORDA);
+        System.out.println("Tipus d'instrument: " + TYPE_STRING);
     }
 
     //Bloc d'inicialització d'instància

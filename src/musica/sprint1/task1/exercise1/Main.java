@@ -11,29 +11,29 @@ public class Main {
         System.out.println("========= DEMOSTRACIÓ DE CÀRREGA DE CLASSES =========");
 
         System.out.println("\n--- 1. ACCÉS A MEMBRE ESTÀTIC (sense crear instància) ---");
-        System.out.println("Accedint a comptadorInstruments de Instrument: " + Instrument.comptadorInstruments);
+        System.out.println("Accedint a comptadorInstruments de Instrument: " + Instrument.counterInstruments);
 
         System.out.println("\n--- 2. CREACIÓ DE PRIMERA INSTÀNCIA DE VENT ---");
-        Vent flauta = new Vent("Flauta", 50.0);
-        flauta.play();
+        Vent flute = new Vent("Flauta", 50.0);
+        flute.play();
 
         System.out.println("\n--- 3. ACCÉS A ATRIBUT ESTÀTIC DE CORDA ---");
-        System.out.println("Tipus de Corda: " + Corda.TIPUS_CORDA);
+        System.out.println("Tipus de Corda: " + Corda.TYPE_STRING);
 
         System.out.println("\n--- 4. CREACIÓ DE PRIMERA INSTÀNCIA DE CORDA ---");
-        Corda guitarra = new Corda("Guitarra", 200.0);
-        guitarra.play();
+        Corda guitar = new Corda("Guitarra", 200.0);
+        guitar.play();
 
         System.out.println("\n--- 5. CREACIÓ DE PRIMERA INSTÀNCIA DE PERCUSSIÓ ---");
-        Percussio bateria = new Percussio("Bateria", 500.0);
-        bateria.play();
+        Percussio drums = new Percussio("Bateria", 500.0);
+        drums.play();
 
         System.out.println("\n--- 6. CREACIÓ DE SEGONA INSTÀNCIA DE VENT ---");
-        Vent trompeta = new Vent("Trompeta", 150.0);
-        trompeta.play();
+        Vent trumpet = new Vent("Trompeta", 150.0);
+        trumpet.play();
 
         System.out.println("\n--- 7. DEMOSTRACIÓ COMPLETA ---");
-        System.out.println("Comptador d'instruments carregats: " + Instrument.comptadorInstruments);
+        System.out.println("Comptador d'instruments carregats: " + Instrument.counterInstruments);
 
         System.out.println("\n--- 8. ARRAY D'INSTRUMENTS POLIMORFISME ---");
         Instrument[] orchestra = {

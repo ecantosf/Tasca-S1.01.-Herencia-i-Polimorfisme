@@ -3,13 +3,13 @@ package musica.sprint1.task1.exercise1;
 public class Percussio extends Instrument {
 
     //Atribut estàtic específic
-    public static String descripcio;
+    public static String description;
 
     //Bloc Static: es carrega quan s'accedeix a la classe (percussió) per primera vegada
     static {
         System.out.println("BLOQ ESTÀTIC de la classe Percussió - Carregant classe...");
-        descripcio = "Instrument de percussió";
-        System.out.println("Tipus d'instrument: " + descripcio);
+        description = "Instrument de percussió";
+        System.out.println("Tipus d'instrument: " + description);
     }
 
     //Bloc d'inicialització d'instància

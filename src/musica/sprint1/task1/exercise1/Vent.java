@@ -3,12 +3,12 @@ package musica.sprint1.task1.exercise1;
 public class Vent extends Instrument {
 
     //Atribut estàtic de la classe Vent
-    public static String tipusVent = "Instrument de vent";
+    public static String instrumentWind = "Instrument de vent";
 
     //Bloc estàtic: es carrega quan s'accedeix a la classe (vent) per primera vegada
     static {
         System.out.println("BLOQ ESTÀTIC de la classe Vent - Carregant classe...");
-        System.out.println("Tipus d'instrument: " + tipusVent);
+        System.out.println("Tipus d'instrument: " + instrumentWind);
     }
 
     //Bloc d'inicialització d'instància no static
